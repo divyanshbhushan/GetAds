@@ -5,5 +5,133 @@
 .navbar > .container-fluid > .navbar-brand > img{
     width: 3rem;
 }
-/* ================Welcome Sect=============== */
-.main > .
+/* ==================Footer=============== */
+.footer{
+    display: flex;
+    align-items: center;
+}
+.footer > .logo{
+    width: 3rem;
+    border-radius: 50%;
+    margin: .5rem ;
+}
+.footer > .copyright{
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: .5rem;
+}
+/* ================Landing Page=============== */
+.main > .welcome-sect{
+    background: url(/assets/images/backgrounds/bg-1.jpg) rgba(0, 0, 0, 0.363);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-pt-sans);
+}
+.main > .welcome-sect > .heading-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main > .welcome-sect >.heading-cont > .heading{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: white;
+}
+.main > .welcome-sect > .content{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 500;
+    margin-top: .5rem;
+}
+.main > .welcome-sect > .btn{
+    position: relative;
+    top: 5rem;
+    font-size: 1.3rem;
+}
+.main > .features-sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+.main > .features-sect > .heading{
+    position: relative;
+    bottom: 15%;
+    font-size: 2rem;
+    font-weight: 500;
+    color: gray;
+}
+.main > .features-sect > .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80vw;
+}
+.main > .features-sect > .content > .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10rem;
+    height: 20rem;
+}
+.main > .features-sect > .content > .box > img{
+    width: 5rem;
+    margin-bottom: 2rem;
+}
+.main > .benefits-sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main > .benefits-sect >.benefit{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.main > .benefits-sect > .benefit > .left{
+    width: 50vw;
+    position: relative;
+    left: 1rem;
+
+}
+.main > .benefits-sect > .benefit > .left > img{
+    width: 70%;
+    position: relative;
+    /* left: 1%; */
+    border-radius: 10px;
+}
+.main > .benefits-sect > .benefit > .right{
+    width: 50vw;
+    position: relative;
+    right: 1rem;
+}
+.main > .benefits-sect > .benefit > .right > img{
+    width: 70%;
+    position: relative;
+    left: 30%;
+    border-radius: 10px;
+}
+.main > .benefits-sect > .benefit > .content{
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    margin: auto;
+}
+.main > .benefits-sect > .benefit > .content > h6{
+    font-weight: 100;
+}
+.main > .benefits-sect > .benefit > .content > .heading{
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+.main > .benefits-sect > .benefit > .content > .para{
+    margin: 2rem 0 0 0;
+}
