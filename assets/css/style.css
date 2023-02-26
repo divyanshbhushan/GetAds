@@ -1,0 +1,9 @@
+/* ===================Navbar============== */
+.navbar{
+    --bs-navbar-padding-y: 0rem;
+}
+.navbar > .container-fluid > .navbar-brand > img{
+    width: 3rem;
+}
+/* ================Welcome Sect=============== */
+.main > .
