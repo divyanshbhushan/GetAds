@@ -1,0 +1,31 @@
+/* =================NAVBAR================ */
+.navbar > .container-fluid > .navbar-collapse > .navbar-nav >.nav-item{
+    margin: auto;
+    padding: 3rem;
+}
+#login-from{
+    margin-bottom: 2rem;
+}
+.navbar > .container-fluid > .navbar-collapse > .d-flex{
+    justify-content: center;
+}
+
+/* =================LANDING PAGE================= */
+.main > .benefits-sect > .benefit > .content > .heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.main > .benefits-sect > .benefit > .content > .para {
+    font-size: .8rem;
+}
+
+.main > .features-sect > .content{
+    width: 99vw;
+}
+.main > .features-sect > .heading {
+    position: relative;
+    bottom: 15%;
+    font-size: 1.56rem;
+    font-weight: 500;
+    color: gray;
+}

@@ -1,0 +1,23 @@
+.main > .welcome-sect >.heading-cont > .heading {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+.main > .welcome-sect > .content {
+    font-size: .8rem;
+    color: white;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+.main > .welcome-sect > .btn {
+    position: relative;
+    top: 5rem;
+    font-size: 1rem;
+}
+.footer > .copyright {
+    color: white;
+    font-size: .8rem;
+    font-weight: 300;
+    margin-top: 0.5rem;
+}
+
