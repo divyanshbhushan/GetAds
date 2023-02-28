@@ -5,3 +5,28 @@
 .bg-gray{
     background-color: rgba(128, 128, 128, 0.109);
 }
+
+
+/* ===================Navbar============== */
+.navbar{
+    --bs-navbar-padding-y: 0rem;
+}
+.navbar > .container-fluid > .navbar-brand > img{
+    width: 3rem;
+}
+/* ==================Footer=============== */
+.footer{
+    display: flex;
+    align-items: center;
+}
+.footer > .logo{
+    width: 3rem;
+    border-radius: 50%;
+    margin: .5rem ;
+}
+.footer > .copyright{
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: .5rem;
+}

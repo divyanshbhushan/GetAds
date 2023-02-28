@@ -1,26 +1,3 @@
-/* ===================Navbar============== */
-.navbar{
-    --bs-navbar-padding-y: 0rem;
-}
-.navbar > .container-fluid > .navbar-brand > img{
-    width: 3rem;
-}
-/* ==================Footer=============== */
-.footer{
-    display: flex;
-    align-items: center;
-}
-.footer > .logo{
-    width: 3rem;
-    border-radius: 50%;
-    margin: .5rem ;
-}
-.footer > .copyright{
-    color: white;
-    font-size: 1rem;
-    font-weight: 300;
-    margin-top: .5rem;
-}
 /* ================Landing Page=============== */
 .main > .welcome-sect{
     background: url(/assets/images/backgrounds/bg-1.jpg) rgba(0, 0, 0, 0.363);
@@ -135,4 +112,122 @@
 }
 .main > .benefits-sect > .benefit > .content > .para{
     margin: 2rem 0 0 0;
+}
+/*! ==================RESPONSIVE================= */
+
+
+/* ===========990px=========== */
+@media screen and (max-width: 990px) {
+/* =================NAVBAR================ */
+.navbar > .container-fluid > .navbar-collapse > .navbar-nav >.nav-item{
+    margin: auto;
+    padding: 3rem;
+}
+#login-from{
+    margin-bottom: 2rem;
+}
+.navbar > .container-fluid > .navbar-collapse > .d-flex{
+    justify-content: center;
+}
+
+/* =================LANDING PAGE================= */
+.main > .benefits-sect > .benefit > .content > .heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.main > .benefits-sect > .benefit > .content > .para {
+    font-size: .8rem;
+}
+
+.main > .features-sect > .content{
+    width: 99vw;
+}
+.main > .features-sect > .heading {
+    position: relative;
+    bottom: 15%;
+    font-size: 1.56rem;
+    font-weight: 500;
+    color: gray;
+}
+}
+
+@media screen and (max-width:660px) {
+    .main > .features-sect > .content > .box > img {
+        width: 4rem;
+        margin-bottom: 2rem;
+    }
+    .main > .features-sect > .content > .box > .content{
+        font-size: .8rem;
+    }
+    .main > .features-sect > .content > .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 8rem;
+        height: auto;
+    }
+    .main > .benefits-sect > .benefit{
+        flex-wrap: wrap;
+    }
+    .main > .benefits-sect > .benefit > .content > .heading {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    h6 {
+        font-size: .5rem;
+    }
+    .main > .features-sect{
+        height: auto;
+        padding: 2rem;
+    }
+    .main > .features-sect > .content{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .main > .benefits-sect > .benefit > div > img {
+        display: none;
+    }
+    .main > .benefits-sect > .benefit > .content{
+        width: 90vw;
+    }
+    .main > .benefits-sect > .benefit {
+        height: auto;
+        padding: 4rem 0;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .main > .welcome-sect >.heading-cont > .heading {
+        font-size: 2.7rem;
+        font-weight: 600;
+        color: white;
+    }
+    .main > .welcome-sect > .content {
+        font-size: 1.1rem;
+        color: white;
+        font-weight: 500;
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .main > .features-sect > .heading {
+        position: relative;
+        bottom: 15%;
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: gray;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .main > .features-sect > .heading {
+        position: relative;
+        bottom: 15%;
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: gray;
+    }
 }
