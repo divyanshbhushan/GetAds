@@ -33,3 +33,24 @@
     font-weight: 300;
     margin-top: .5rem;
 }
+
+@media screen and (max-width: 990px){
+    /* =================NAVBAR================ */
+.navbar > .container-fluid > .navbar-collapse > .navbar-nav >.nav-item{
+    margin: auto;
+    padding: 3rem;
+}
+#login-from{
+    margin-bottom: 2rem;
+}
+.navbar > .container-fluid > .navbar-collapse > .d-flex{
+    justify-content: center;
+}
+
+}
+
+@media screen and (max-width:300px) {
+    .footer > .copyright{
+        font-size: .7rem;
+    }
+}

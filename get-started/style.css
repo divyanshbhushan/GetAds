@@ -2,7 +2,7 @@
     display: flex;
     width: 70%;
     margin: auto;
-    height: 94.2vh;
+    height:100vh;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -48,3 +48,13 @@
     margin-top: 2rem;
 }
 
+/* ==============1320px============== */
+@media screen and (max-width:1320px) {
+    .main > .steps-sect{
+        height: auto;
+        margin: 5rem auto;
+    }
+    .main > .steps-sect > .box{
+        margin: 1rem 0;
+    }
+}

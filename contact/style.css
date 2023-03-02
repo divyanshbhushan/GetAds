@@ -1,0 +1,113 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25vh;
+}
+.main > .card{
+    height: auto;
+    width: 70%;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.105);
+    box-shadow: 5px 5px 5px rgb(186, 186, 186);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0 ;
+}
+.main > .card > .heading{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1rem 0 0 0;
+}
+.main >.card > .logo > img{
+    width: 10rem;
+    border-radius: 50%;
+    margin: 2rem 0;
+}
+.main > .card > .mail{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.main > .card > .link-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20rem;
+    margin-top: 4rem;
+}
+.main > .card > .link-cont > .link > img{
+    width: 2rem;
+}
+
+/* ===================990px================= */
+
+@media screen and (max-width:990px) {
+    .main {
+        height: 100vh;
+        padding: 5rem 0;
+    }
+    .main > .card {
+        height: auto;
+        padding-bottom: 4rem;
+        width: 73%;
+    }
+    .main > .card > .link-cont {
+        margin-top: 2rem;
+    }
+    .main >.card > .logo > img {
+        margin: 7rem 0;
+    }
+    .main > .card > .heading {
+        margin: 4rem 0 0 0;
+        font-size: 1.8rem;
+    }
+    .main > .card > .mail {
+        font-size: 1.2rem;
+    }    
+}
+/* =================570px============= */
+@media screen and (max-width:570px){
+    .main{
+        height: auto;
+    }
+}
+/* ===================465px================= */
+
+@media screen and (max-width:465px) {
+    .main > .card > .heading {
+        margin: 4rem 0 0 0;
+        font-size: 1.5rem;
+    }
+    .main > .card > .mail {
+        font-size: 1rem;
+    }
+    .main > .card > .link-cont > .link > img {
+        width: 1.5rem;
+    }
+    .main >.card > .logo > img {
+        width: 7rem;
+        margin: 10rem 0;
+    }
+}
+
+/* ===================384px================= */
+
+@media screen and (max-width:385px) {
+    .main > .card > .heading {
+         margin: 4rem 0 0 0;
+         font-size: 5.5vw;
+    }
+     .main > .card > .mail {
+         font-size: 4vw;
+    }
+    .main > .card > .link-cont{
+        width: 99%;
+    }
+    .main >.card > .logo > img {
+        width: 42vw;
+    }
+    .main > .card > .link-cont > .link > img {
+        width: 8vw;
+    }
+}
