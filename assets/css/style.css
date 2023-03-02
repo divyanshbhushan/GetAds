@@ -1,10 +1,17 @@
 /* ================Landing Page=============== */
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .main > .welcome-sect{
     background: url(/assets/images/backgrounds/bg-1.jpg) rgba(0, 0, 0, 0.363);
     background-blend-mode: darken;
     background-size: cover;
     background-position: center;
     height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,10 +34,12 @@
     font-weight: 500;
     margin-top: .5rem;
 }
-.main > .welcome-sect > .btn{
-    position: relative;
-    top: 5rem;
-    font-size: 1.3rem;
+.main > .get-started{
+        position: relative;
+        /* left: 47vw; */
+        top: 74vh;
+        width: 9rem;
+        font-size: 1.3rem;
 }
 .main > .features-sect{
     display: flex;
@@ -220,14 +229,22 @@
         font-weight: 500;
         color: gray;
     }
+    .main > .welcome-sect >.heading-cont > .heading {
+        font-size: 1.7rem;
+        font-weight: 600;
+        color: white;
+    }
+    .main > .welcome-sect > .content {
+        font-size: .8rem;
+        color: white;
+        font-weight: 500;
+        margin-top: 0.5rem;
+    }
 }
 
 @media screen and (max-width:280px) {
-    .main > .features-sect > .heading {
-        position: relative;
-        bottom: 15%;
-        font-size: 1.2rem;
-        font-weight: 500;
-        color: gray;
-    }
+    /* .main > .welcome-sect{
+        height: 110vh;
+        width: 101%;
+    } */
 }

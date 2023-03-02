@@ -1,0 +1,50 @@
+.main > .steps-sect{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    height: 94.2vh;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.main > .steps-sect > .box{
+    width: 19rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main > .steps-sect > .box > .img > img{
+    width: 10rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-top: 2rem;
+}
+.main > .steps-sect > .box > .content{
+    width: 100%;
+    margin:2rem 0 0 1rem;
+}
+.main > .steps-sect > .box > .content > .number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8000ff;
+    font-size: 1.5rem;
+    color: white;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+.main > .steps-sect > .box > .content > .heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.main > .steps-sect > .box > .content > .paragraph{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.main > .steps-sect > .box > .content  > .btn{
+    margin-top: 2rem;
+}
+
