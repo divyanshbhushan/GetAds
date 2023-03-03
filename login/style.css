@@ -1,0 +1,50 @@
+.login_signup-page{
+    height: 100%;
+    width: 100%;
+    background: url(/assets/images/backgrounds/login-bg.jpg) rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_signup-page > .card {
+    width: 21vw;
+    height: auto;
+    padding-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.508);
+    display: flex;
+    flex-direction: column;
+}
+.login_signup-page > .card > h2 {
+    color: rgb(71, 71, 71);
+    margin: 2rem auto;
+    font: 2px;
+    font-size: 1.7vw;
+}
+.login_signup-page > .card > .inp {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.login_signup-page > .card > .inp > .label{
+    font-size: 1vw;
+    font-weight: 500;
+    color: rgb(50, 40, 40);
+    margin-left: 1rem;
+}
+.login_signup-page > .card > .inp > .input{
+    width: 90%;
+    margin: auto;
+    background-color: transparent;
+    outline-color: none;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.login_signup-page > .card > .inp > .btn{
+    font-size: .7vw;
+}
+.sign-up{
+    font-size: .7vw;
+    margin: 1rem auto;
+}

@@ -8,7 +8,9 @@
 .disabled{
     cursor:not-allowed;
 }
-
+.mt-10vh{
+    margin-top: 10vh;
+}
 /* ===================Navbar============== */
 .navbar{
     --bs-navbar-padding-y: 0rem;
@@ -33,7 +35,6 @@
     font-weight: 300;
     margin-top: .5rem;
 }
-
 @media screen and (max-width: 990px){
     /* =================NAVBAR================ */
 .navbar > .container-fluid > .navbar-collapse > .navbar-nav >.nav-item{
