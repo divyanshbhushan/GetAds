@@ -9,7 +9,7 @@
     align-items: center;
 }
 .login_signup-page > .card {
-    width: 21vw;
+    width: 21rem;
     height: auto;
     padding-bottom: 1rem;
     background-color: rgba(255, 255, 255, 0.508);
@@ -20,7 +20,7 @@
     color: rgb(71, 71, 71);
     margin: 2rem auto;
     font: 2px;
-    font-size: 1.7vw;
+    font-size: 1.7rem;
 }
 .login_signup-page > .card > .inp {
     margin: 2rem 0;
@@ -28,7 +28,7 @@
     flex-direction: column;
 }
 .login_signup-page > .card > .inp > .label{
-    font-size: 1vw;
+    font-size: 1rem;
     font-weight: 500;
     color: rgb(50, 40, 40);
     margin-left: 1rem;
@@ -45,6 +45,6 @@
     font-size: .7vw;
 }
 .sign-up{
-    font-size: .7vw;
+    font-size: .7rem;
     margin: 1rem auto;
 }
